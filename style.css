@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    background-color: rgb(37, 44, 74) !important;
+
+
+
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-card   {
+    width: 30rem;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    background-color: rgb(37, 44, 74) !important;
+    border: none !important;
+
+}
