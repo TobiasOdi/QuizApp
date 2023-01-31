@@ -1,9 +1,6 @@
 body {
     min-height: 100vh;
     background-color: rgb(37, 44, 74) !important;
-
-
-
 }
 
 .container {
@@ -12,9 +9,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+
 }
 
-.quiz-card   {
+[id*="answer"] {
+    border-radius: 5px;
+}
+
+.quiz-card {
     width: 30rem;
 }
 
@@ -24,7 +27,44 @@ body {
 }
 
 .btn-primary {
-    background-color: rgb(37, 44, 74) !important;
-    border: none !important;
+/*     background-color: rgb(37, 44, 74) !important;
+ */    border: none !important;
 
 }
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-success, .bg-danger {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
