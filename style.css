@@ -27,8 +27,9 @@ body {
 }
 
 .btn-primary {
-/*     background-color: rgb(37, 44, 74) !important;
- */    border: none !important;
+    /*     background-color: rgb(37, 44, 74) !important;
+ */
+    border: none !important;
 
 }
 
@@ -40,31 +41,3 @@ body {
 .bg-success, .bg-danger {
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
