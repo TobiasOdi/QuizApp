@@ -1,6 +1,11 @@
 body {
     min-height: 100vh;
     background-color: rgb(37, 44, 74) !important;
+    font-size: 16px;
+}
+
+nav img {
+    border-radius: 3px;
 }
 
 .container {
@@ -10,7 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-
 }
 
 [id*="answer"] {
@@ -30,6 +34,7 @@ body {
     /*     background-color: rgb(37, 44, 74) !important;
  */
     border: none !important;
+    background-color: rgb(37, 44, 74) !important    ;
 
 }
 
@@ -41,3 +46,58 @@ body {
 .bg-success, .bg-danger {
     color: white;
 }
+
+#endScreen>div:first-of-type {
+    font-size: 2rem;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#headerImage {
+    border: 1px solid white;
+}
+
+.progress, .progress-bar {
+    border-radius: 0 !important;
+}
+
+.progress-bar {
+    background-color: rgb(37, 44, 74) !important;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+
+
+
+@media(max-width: 580px) {
+    
+    .quiz-card {
+        width: 100% !important;
+        height: 100vh !important;
+        border-radius: 0 !important;
+    }
+
+    .container  {
+        height: 100% !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+}
+
+
+
+
